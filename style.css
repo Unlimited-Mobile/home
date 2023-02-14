@@ -1,0 +1,88 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+    
+  }
+  
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header li {
+    margin-right: 20px;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  } 
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #000;
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .product {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+nav {
+   
+    height: 50px; /* change it to desired width */
+    background-color: rgba(12, 13, 14, 0.295); /* change to desired color */
+}
+
+h3{
+  text-align: center;
+}
+
